@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#container {
+    background: #212121 url(images/index1.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#col a {
+    color: white;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#col a:hover{
+    background-color: black;
+    opacity: 0.6;
+    transition: 0.3s;
+    padding-left: 2rem;
+    border-end-start-radius: 1rem;
+}
+
+
+#col2 {
+    background-color: #212121;
+    opacity: 0.6;
+}
+
+#col2 p {
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+#contact-area {
+
+    width: 100%;
+    text-align: center
+}
+
+#site-content {
+    flex-grow: 1;
+}
+
+#container2 {
+    position: relative;
+
+}
+
+#row2 {
+    position: relative;
+}
+
+
+#col3 img{
+    outline:0.1rem solid black;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity:1;
+}
+
+#col3 img:hover {
+    outline-offset: 0.5rem;
+    outline:0.2rem solid black;
+    outline-offset:0.3rem ;
+    opacity:0.6;
+}
+
+#col3 p{
+    opacity: 0;
+}
+
+#col3:hover p{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.dados {
+    bottom: 10px;
+    right: 0;
+}
+
+#col3 p{
+    font-family: "Arial Bold", Arial;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffffff !important;
+}
